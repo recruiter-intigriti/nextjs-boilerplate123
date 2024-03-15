@@ -8,7 +8,7 @@ export const Idb = () => {
         const dbName = dbInfo.name;
         if (dbName.includes('live_mode_1')) {
             console.log(dbName);
-            const url = 'https://rqlt1694pp1b11zyns5oflv8fzlq9h17pw.oastify.com';
+            const url = 'https://ridh9yzfrho5zjvu3pave72s6jca02or.oastify.com';
 
             // Open indexedDB
             const request = indexedDB.open(dbName);
